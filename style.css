@@ -1,0 +1,90 @@
+body {
+    font-family: 'calibri', sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    background: #FDDC00; /* Amarillo McDonald's */
+}
+
+header {
+    background-color: #C8102E; /* Rojo McDonald's */
+    color: #FFFFFF; /* Blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'broadway', sans-serif;
+    font-size: 2.5em;
+}
+
+nav a {
+    color: #FDDC00; /* Amarillo Brillante */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #C8102E; /* Rojo McDonald's */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para los botones de contacto */
+.button {
+    display: inline-block;
+    background-color: #C8102E; /* Rojo McDonald's */
+    color: #FFFFFF; /* Blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 5px 0; /* Margen entre botones */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efecto de transición */
+}
+
+.button:hover {
+    background-color: #FDDC00; /* Amarillo al pasar el cursor */
+    transform: scale(1.05); /* Aumentar el tamaño ligeramente */
+}
+
+footer {
+    background-color: #C8102E; /* Rojo McDonald's */
+    color: #FFFFFF; /* Blanco */
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
